@@ -10,7 +10,7 @@ body{
     background-color: whitesmoke;
 }
 
-header{
+.section,section,nav,header{
     background-color: white;
 }
 
@@ -45,7 +45,6 @@ header>span{
 
 .section{
     width: 140px;
-    background-color: white;
     border: 2px solid rgb(151, 151, 151);
     color: rgb(151, 151, 151);
 }
@@ -59,19 +58,16 @@ header>span{
 }
 
 nav{
-    /* content: reference; */
     height: 104px;
     padding: 30px;
     padding-left: 100px;
     border-radius: 5px;
-    background-color: white;
 }
 
 section{
     padding: 50px;
     padding-left: 90px;
     margin-top: 5px;
-    background-color: white;
     border-radius: 5px;
 }
 
@@ -83,7 +79,6 @@ section{
 .undone{
     list-style-type: "\274C";
     margin-left: 55px;
-
 }
 
 ul{
@@ -92,7 +87,6 @@ ul{
 
 ul li{
     padding:15px;
-    /* margin-left: 50px; */
     font-size: 30px;
     font-weight: 700;
 }
@@ -139,9 +133,3 @@ ul li{
 .sales{
     background-color: #B0C926;
 }
-
-
-
-
-
-
