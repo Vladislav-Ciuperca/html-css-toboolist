@@ -69,16 +69,79 @@ nav{
 
 section{
     padding: 50px;
+    padding-left: 90px;
     margin-top: 5px;
     background-color: white;
+    border-radius: 5px;
 }
 
 .done{
-    list-style-type: "\2611";
+    list-style-type: "\2705" ;
+    margin-left: 55px;
+}
+
+.undone{
+    list-style-type: "\274C";
+    margin-left: 55px;
+
+}
+
+ul{
+    margin-top: 40px;
 }
 
 ul li{
-    margin-left: 20px;
-
+    padding:15px;
+    /* margin-left: 50px; */
+    font-size: 30px;
+    font-weight: 700;
 }
+
+.titolista{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.titolista::before{
+    content: "\1F53B"
+}
+
+.badje{
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 10px 15px 10px 15px;
+}
+
+.editorial{
+    background-color: #47ADF1;
+}
+
+.Q{
+    background-color: #9C72E4;
+}
+
+.recruit{
+    background-color:#64C0A9 ;
+}
+
+.mobile{
+    background-color:#F29E33 ;
+}
+
+.website{
+    background-color: #D863A1;
+}
+.sales{
+    background-color: #B0C926;
+}
+
+
+
+
+
 
